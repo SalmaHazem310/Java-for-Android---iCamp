@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">iHubAndroid</string>
+    <string name="article_title">Global Warming</string>
+    <string name="article_subtitle">The Earth is warming up, and humans are at least partially to blame. The causes, effects, and complexities of global warming are important to understand so that we can fight for the health of our planet.</string>
+    <string name="intro">"Global warming is the long-term warming of the planet’s overall temperature. As the human population has increased, so has the volume of fossil fuels burned. Fossil fuels include coal, oil, and natural gas, and burning them causes what is known as the “greenhouse effect” in Earth’s atmosphere.  "</string>
+    <string name="article">"The greenhouse effect is when the Sun’s rays penetrate the atmosphere, but when that heat is reflected off the surface cannot escape back into space. The excess heat in the atmosphere has caused the average global temperature to rise overtime. \nGlobal warming has presented another issue called climate change. Scientists continue to study global warming and its impact on Earth.\n Read more at: https://www.nationalgeographic.org/encyclopedia/global-warming/ "</string>
+    <string name="student_email">student@gmail.com</string>
+    <string name="student_college">Faculty of Medicine</string>
+    <string name="student_name">Sara AL</string>
+    <string name="comments">100 Comments</string>
+    <string name="views">2.8M Views</string>
+</resources>

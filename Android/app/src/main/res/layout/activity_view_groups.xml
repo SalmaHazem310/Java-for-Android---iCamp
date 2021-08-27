@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewGroupsActivity">
+
+    <ImageView
+        android:id="@+id/student_photo_iv"
+        android:layout_width="@dimen/img_dim"
+        android:layout_height="@dimen/img_dim"
+        android:src="@drawable/student"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student_name"
+        app:layout_constraintBottom_toTopOf="@+id/college_tv"
+        app:layout_constraintStart_toEndOf="@id/student_photo_iv"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/college_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student_college"
+        app:layout_constraintBottom_toTopOf="@+id/email_tv"
+        app:layout_constraintStart_toStartOf="@id/name_tv"
+        app:layout_constraintTop_toBottomOf="@+id/name_tv" />
+
+    <TextView
+        android:id="@+id/email_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student_email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/name_tv"
+        app:layout_constraintTop_toBottomOf="@+id/college_tv" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

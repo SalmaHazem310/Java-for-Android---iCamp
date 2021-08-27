@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/article_title"
+        android:layout_marginStart="@dimen/start_margin"
+        android:layout_marginTop="@dimen/start_margin"
+        android:layout_marginLeft= "0dp"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/subtitle_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/article_subtitle"
+        android:layout_marginStart="@dimen/start_margin"
+        android:layout_marginTop="@dimen/start_margin"
+        android:layout_marginLeft= "0dp"
+        android:textSize="@dimen/subtitle_text_size"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image_tc"
+        android:layout_width="@dimen/img_dim"
+        android:layout_height="@dimen/img_dim"
+        android:src="@drawable/global_warming"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+
+        />
+
+    <TextView
+        android:id="@+id/intro_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro"
+        android:layout_marginStart="@dimen/start_margin"
+        android:layout_marginTop="@dimen/start_margin"
+        android:layout_marginLeft= "0dp"
+        android:textSize="@dimen/paragraph_text_size"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/article_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="367dp"
+        android:layout_marginStart="@dimen/start_margin"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="@dimen/start_margin"
+        android:autoLink="web"
+        android:textColorLink="@color/colorPrimary"
+        android:text="@string/article"
+        android:textSize="@dimen/paragraph_text_size"
+        android:textStyle="italic" />
+
+
+</LinearLayout>

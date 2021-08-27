@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="#FFF"
+    tools:context=".fbPage">
+
+    <ImageView
+        android:id="@+id/pp_iv"
+        android:layout_width="@dimen/pp_dim"
+        android:layout_height="@dimen/pp_dim"
+        android:src="@drawable/student"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/post_words_tv"/>
+    <TextView
+        android:id="@+id/user_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student_name"
+        app:layout_constraintBottom_toTopOf="@+id/post_words_tv"
+        app:layout_constraintStart_toEndOf="@id/pp_iv"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="25dp"
+        android:textColor="#000"
+        />
+    <ImageView
+        android:layout_width="@dimen/dots_dim"
+        android:layout_height="@dimen/dots_dim"
+        android:src="@drawable/dots"
+        app:layout_constraintBottom_toTopOf="@+id/post_words_tv"
+        app:layout_constraintEnd_toEndOf="@id/post_img_iv"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/post_words_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/article_subtitle"
+        app:layout_constraintBottom_toTopOf="@+id/post_img_iv"
+        app:layout_constraintStart_toStartOf="@id/pp_iv"
+        app:layout_constraintTop_toBottomOf="@id/pp_iv"
+        android:textColor="#000"/>
+    <ImageView
+        android:id="@+id/post_img_iv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/post_dim"
+        android:src="@drawable/global_warming"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/comments_tv"
+        app:layout_constraintStart_toStartOf="@id/pp_iv"
+        app:layout_constraintTop_toBottomOf="@id/post_words_tv"
+        />
+
+    <TextView
+        android:id="@+id/comments_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comments"
+        app:layout_constraintStart_toStartOf="@id/pp_iv"
+        app:layout_constraintTop_toBottomOf="@id/post_img_iv"
+        />
+    <TextView
+        android:id="@+id/views_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/views"
+        app:layout_constraintEnd_toEndOf="@id/post_img_iv"
+        app:layout_constraintTop_toBottomOf="@id/post_img_iv"
+
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

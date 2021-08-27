@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:layout_marginTop="10dp"
+    tools:context=".fbPage">
+
+    <ImageView
+        android:id="@+id/pp_iv"
+        android:layout_width="@dimen/pp_dim"
+        android:scaleType="fitXY"
+        android:layout_height="@dimen/pp_dim"
+        android:src="@drawable/student"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp" />
+    <TextView
+        android:id="@+id/user_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/student_name"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/pp_iv"
+        android:layout_toRightOf="@+id/pp_iv"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        />
+    <ImageView
+        android:layout_width="@dimen/dots_dim"
+        android:layout_height="@dimen/dots_dim"
+        android:src="@drawable/dots"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/user_name_tv"
+        />
+
+    <TextView
+        android:id="@+id/post_words_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/article_subtitle"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/pp_iv"
+        android:textColor="#000"/>
+    <ImageView
+        android:id="@+id/post_img_iv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/post_dim"
+        android:src="@drawable/global_warming"
+        android:layout_below="@+id/post_words_tv"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/comments_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comments"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/post_img_iv" />
+    <TextView
+        android:id="@+id/views_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/views"
+        android:gravity="right"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/post_img_iv"
+        android:layout_toRightOf="@id/comments_tv"
+        android:layout_alignParentRight="true"
+
+        />
+</RelativeLayout>
