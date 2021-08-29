@@ -1,4 +1,13 @@
 # Java-for-Android---iCamp
+## Login Page
+![image](https://user-images.githubusercontent.com/43723626/131266572-4e2c8db5-6732-4afd-979e-9fc04c5cea19.png)
+
+## Second Activity (Information)
+![image](https://user-images.githubusercontent.com/43723626/131266587-c0d93313-f49f-4e77-841e-4b093dca3b80.png)
+
+## Button Prints On Log
+![image](https://user-images.githubusercontent.com/43723626/131266594-26c0aae1-d1e8-4422-bac6-52851fd4656a.png)
+
 ## Facebook Page Using Relative Layout
 activity_fb_page.xml
 
