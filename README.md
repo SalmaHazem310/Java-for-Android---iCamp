@@ -1,4 +1,11 @@
 # Java-for-Android---iCamp
+## Recycler View
+* Vertical View
+* ![image](https://user-images.githubusercontent.com/43723626/131594357-6a16cfcb-3500-4e76-938f-31e02b39a5d2.png)
+* Horizontal View
+* ![image](https://user-images.githubusercontent.com/43723626/131594383-0ce2e12d-585c-438e-bcf3-07be76a8f25f.png)
+News api implemented but could not make it work
+
 ## Login Page
 ![image](https://user-images.githubusercontent.com/43723626/131266572-4e2c8db5-6732-4afd-979e-9fc04c5cea19.png)
 
